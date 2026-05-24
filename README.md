@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-EF4444?style=for-the-badge&logo=pytorch&logoColor=white"/>
 </p>
 
-<h1 align="center">🛍️ Live Commerce Product Recognition</h1>
+<h1 align="center"> Live Commerce Product Recognition</h1>
 
 <p align="center">
   Real-time AI system that detects and identifies products in live shopping streams using YOLOv8 + CLIP.
@@ -15,7 +15,7 @@
 
 ---
 
-# 📌 Overview
+#  Overview
 
 This project recreates the core AI pipeline used in modern live commerce platforms such as Taobao Live, Douyin Shop, and JD.com.
 
@@ -28,9 +28,9 @@ Given a live stream, webcam feed, or recorded video, the system automatically:
 
 Unlike traditional image classifiers, this project requires:
 
-✅ No labeled dataset  
-✅ No custom training  
-✅ No retraining when products change  
+ No labeled dataset  
+ No custom training  
+ No retraining when products change  
 
 You simply describe products using natural language.
 
@@ -44,7 +44,7 @@ CLIP handles the recognition automatically.
 
 ---
 
-# 🎯 Features
+#  Features
 
 - Real-time product detection
 - Zero-shot product recognition
@@ -57,7 +57,7 @@ CLIP handles the recognition automatically.
 
 ---
 
-# 🧠 AI Pipeline
+#  AI Pipeline
 
 ```text
 Video Stream
@@ -83,7 +83,7 @@ Annotated Video Output
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
 ┌────────────────────────────────────────────────────────────┐
@@ -118,7 +118,7 @@ Annotated Video Output
 
 ---
 
-# 🔍 Core Technologies
+# Core Technologies
 
 ## 1. YOLOv8 — Real-Time Object Detection
 
@@ -210,7 +210,7 @@ L2 normalization projects embeddings onto a unit sphere, making cosine similarit
 
 ---
 
-# ⚡ Performance Optimizations
+#  Performance Optimizations
 
 | Optimization | Benefit |
 |---|---|
@@ -248,7 +248,7 @@ live_product_recognition/
 
 ---
 
-# 🚀 Installation
+#  Installation
 
 ## 1. Clone Repository
 
@@ -265,7 +265,7 @@ pip install ultralytics transformers opencv-python torch Pillow
 
 ---
 
-# ▶️ Usage
+#  Usage
 
 ## Webcam
 
@@ -304,20 +304,11 @@ python process_video.py --input stream.mp4 --output demo.mp4
 
 ---
 
-# 🧪 Example Product Catalog
 
-```python
-PRODUCT_CATALOG = [
-    "red Nike Air Max 90 sneakers",
-    "Dior Saddle Bag in brown leather",
-    "Samsung Galaxy S24 Ultra smartphone",
-    "Apple AirPods Pro wireless earbuds"
-]
-```
 
 ---
 
-# 📈 Future Improvements
+#  Future Improvements
 
 | Feature | Description |
 |---|---|
@@ -330,7 +321,7 @@ PRODUCT_CATALOG = [
 
 ---
 
-# 💡 Real-World Applications
+#  Real-World Applications
 
 - Live shopping platforms
 - Ecommerce AI systems
@@ -341,7 +332,7 @@ PRODUCT_CATALOG = [
 
 ---
 
-# 📚 References
+#  References
 
 - YOLOv8 — Ultralytics
 - OpenAI CLIP
@@ -351,7 +342,7 @@ PRODUCT_CATALOG = [
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Built as a computer vision portfolio project inspired by modern China ecommerce AI systems such as:
 
